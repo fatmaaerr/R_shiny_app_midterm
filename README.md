@@ -32,5 +32,4 @@ library(shiny)
 runGitHub("R_shiny_app_midterm","fatmaaerr",ref = "main")
 
 
-runGitHub("R_shiny_app_midterm","fatmaaerr",ref = "main")
 
