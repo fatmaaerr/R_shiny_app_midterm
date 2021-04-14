@@ -28,5 +28,9 @@ shiny::runApp('R_shiny_app_midterm_967585')
 
 runApp('~/R_shiny_app_midterm_967585')
 
+library(shiny)
+runGitHub("R_shiny_app_midterm","fatmaaerr",ref = "main")
+
+
 runGitHub("R_shiny_app_midterm","fatmaaerr",ref = "main")
 
