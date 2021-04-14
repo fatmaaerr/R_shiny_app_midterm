@@ -24,6 +24,8 @@ Second graphic is a box plot and shows house price and square_meter_price for ea
 
 Between the two graphs, renderPrint shows the region and the average Price for that region.
 
+shiny::runApp('R_shiny_app_midterm_967585')
+
 runApp('~/R_shiny_app_midterm_967585')
 
 runGitHub("R_shiny_app_midterm","fatmaaerr",ref = "main")
