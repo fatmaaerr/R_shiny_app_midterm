@@ -23,15 +23,15 @@ Bulding Age Filter: This filter shows building age. After run ShinyApp you see f
 
 Number of Rooms: This filter shows house's rooms count. After run ShinyApp you see first room selected "5".  This filter is multichoice filter. You can add Number of Rooms.
 
-Price slider: This slider includin min house and max house price. You can choose house price related your budget.
+Price slider: This slider including min  and max house price. You can choose house price related your budget.
 
 Radio Group Button : It has two different select button . Price and Unit Square Meter Price. This button is intractive and changes graphics.
 
-In the Istanbul Real Estate Valuation app , I used two different graphics. First one is scatter plot . It shows relation with Gross square metre and Price ,Gross square metre and square_meter_price. Graphics are colored by district in addition to giving heating system features different shape.
+In the Istanbul Real Estate Valuation app , I used two different graphics. First one is scatter plot . It shows relation with Gross square metre and Price ,Gross square metre and square meter price. Graphics are colored by district in addition to giving heating system features different shape.
 
-Second graphic is a box plot and shows house price and square_meter_price for each district. The graphic shows us deviant value each district.When you come on box plot, It shows Quartiles value.
+Second graphic is a box plot and shows house price and square meter price for each district. The graphic shows us deviant value each district.When you come on box plot, It shows Quartiles value.
 
-Between the two graphs, renderPrint shows the region and the average Price for that region.
+Between the two graphs, renderPrint shows the region and the average price and  square meter price for that region. Radio Group Button  affects also this value here.
 
 shiny::runApp('R_shiny_app_midterm_967585')
 
