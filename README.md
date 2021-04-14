@@ -8,6 +8,15 @@ In order to avoid duplications and data inconsistencies that may occur with the 
 
 Using Shiny App
 
+I used below libraries.
+
+library(shiny)
+library(shinyWidgets)
+library(dslabs)
+library(tidyverse)
+library(plotly)
+library("readxl")
+
 District filter : For choosing district of Istanbul. After run ShinyApp you see first district selected "Bakirkoy". This filter is multichoice filter. You can add district.
 
 Bulding Age Filter: This filter shows building age. After run ShinyApp you see first building age selected "0_5".  This filter is multichoice filter. You can add building age.
