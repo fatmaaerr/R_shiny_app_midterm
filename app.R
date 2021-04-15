@@ -3,7 +3,7 @@ library(shinyWidgets)
 library(dslabs)
 library(tidyverse)
 library(plotly)
-library("readxl")
+#library("readxl")
 
 house <- read_csv("https://raw.githubusercontent.com/fatmaaerr/R_shiny_app_midterm/main/Analysis_Data.csv")
 
