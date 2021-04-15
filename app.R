@@ -6,7 +6,7 @@ library(plotly)
 library("readxl")
 library(RCurl)
 
-x <- getURL("https://raw.github.com/aronlindberg/latent_growth_classes/master/LGC_data.csv")
+x <- getURL("Data/Analysis_Data.xlsx")
 house <- read_excel(xlsx = x)
 
 #house <- read_excel("~/R_shiny_app_midterm/Data/Analysis_Data.xlsx")
