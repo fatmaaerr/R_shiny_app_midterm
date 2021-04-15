@@ -33,9 +33,9 @@ Second graphic is a box plot and shows house price and square meter price for ea
 
 Between the two graphs, renderPrint shows the region and the average price and  square meter price for that region. Radio Group Button  affects also this value here.
 
-shiny::runApp('R_shiny_app_midterm_967585')
+shiny::runApp('R_shiny_app_midterm')
 
-runApp('~/R_shiny_app_midterm_967585')
+runApp('~/R_shiny_app_midterm')
 
 library(shiny)
 runGitHub("R_shiny_app_midterm","fatmaaerr",ref = "main")
