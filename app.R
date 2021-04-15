@@ -7,7 +7,6 @@ library(plotly)
 
 house <- read_csv("https://raw.githubusercontent.com/fatmaaerr/R_shiny_app_midterm/main/Analysis_Data.csv")
 
-#house <- read_excel("~/R_shiny_app_midterm/Data/Analysis_Data.xlsx")
 
 house <- mutate(house, square_meter_price = Price/(Gross_Square_Meter) ) %>% 
   pivot_longer(cols = c(Price, square_meter_price), 
