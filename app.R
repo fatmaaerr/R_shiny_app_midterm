@@ -4,10 +4,8 @@ library(dslabs)
 library(tidyverse)
 library(plotly)
 library("readxl")
-library(RCurl)
 
-x <- getURL("Data/Analysis_Data.xlsx")
-house <- read_excel(xlsx = x)
+house <- read_csv(https://raw.githubusercontent.com/fatmaaerr/R_shiny_app_midterm/main/Analysis_Data.csv)
 
 #house <- read_excel("~/R_shiny_app_midterm/Data/Analysis_Data.xlsx")
 
