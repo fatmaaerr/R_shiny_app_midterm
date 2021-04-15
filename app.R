@@ -4,8 +4,8 @@ library(dslabs)
 library(tidyverse)
 library(plotly)
 library("readxl")
-
-house <- read_excel("~/R_shiny_app_midterm/Data/Analysis_Data.xlsx")
+#house <- read_excel("~/R_shiny_app_midterm/Data/Analysis_Data.xlsx")
+house <- read_excel("R_shiny_app_midterm/Data/Analysis_Data.xlsx")
 house <- mutate(house, square_meter_price = Price/(Gross_Square_Meter) ) %>% 
   pivot_longer(cols = c(Price, square_meter_price), 
                names_to = "data", values_to = "value")
