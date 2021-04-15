@@ -1,5 +1,3 @@
-
-
 library(shiny)
 library(shinyWidgets)
 library(dslabs)
@@ -7,7 +5,7 @@ library(tidyverse)
 library(plotly)
 library("readxl")
 
-house <- read_excel("https://github.com/fatmaaerr/R_shiny_app_midterm/blob/07cd2ccf46a825be9289094ee996a6d8ca317ba9/Data/Analysis_Data.xlsx")
+house <- read_excel("~/R_shiny_app_midterm/Data/Analysis_Data.xlsx")
 house <- mutate(house, square_meter_price = Price/(Gross_Square_Meter) ) %>% 
   pivot_longer(cols = c(Price, square_meter_price), 
                names_to = "data", values_to = "value")
