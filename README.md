@@ -15,7 +15,7 @@ library(shinyWidgets)
 library(dslabs)
 library(tidyverse)
 library(plotly)
-library("readxl")
+
 
 District filter : For choosing district of Istanbul. After run ShinyApp you see first district selected "Bakirkoy". This filter is multichoice filter. You can add district.
 
