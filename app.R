@@ -7,7 +7,7 @@ library("readxl")
 #house <- read_excel("~/R_shiny_app_midterm/Data/Analysis_Data.xlsx")
 #house <- read_excel("~/fatmaaerr/R_shiny_app_midterm/Data/Analysis_Data.xlsx")
 
-house <- read_excel("Analysis_Data.xlsx",header = T,stringsAsFactors = F)
+house <- read_excel("Analysis_Data.xlsx")
 house <- mutate(house, square_meter_price = Price/(Gross_Square_Meter) ) %>% 
   pivot_longer(cols = c(Price, square_meter_price), 
                names_to = "data", values_to = "value")
